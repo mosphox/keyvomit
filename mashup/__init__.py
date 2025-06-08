@@ -1,1 +1,1 @@
-from .core import generate, CHARSETS  # noqa: F401
+from .core import generate, CHARSETS, DEFAULT_LENGTH, DEFAULT_CHARSETS  # noqa: F401
