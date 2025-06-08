@@ -5,21 +5,19 @@
 **mashup** is a terminal-friendly, argument-powered, clipboard-integrated nonsense generator for passwords, tokens, and bad decisions.
 
 ---
-
 ## Features
 
 - Mix character sets: `--lower`, `--upper`, `--digits`, `--symbols`, etc.
 - Combine flags like `-ludsp`
 - Use custom charsets like `--custom 'abc123!?🐍'`
 - Automatically copies to clipboard (unless you hate joy)
-
 ---
 
 ## Installation
 ```
 pip install mashup
 ```
-
+---
 ## Usage
 `mashup [flags] [length]`
 
