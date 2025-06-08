@@ -1,7 +1,7 @@
 import builtins
 import sys
 
-from mashup.core import copy
+from keyvomit.core import copy
 
 
 def test_copy_with_pyperclip(monkeypatch):

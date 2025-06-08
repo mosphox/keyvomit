@@ -3,16 +3,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='keyvomit',
-    version='0.2.0',
+    version='1.0.0',
     description='Unhinged character sequence generator for passwords, tokens, and general chaos.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='mosphox',
     author_email='mosphox@gmail.com',
-    url='https://github.com/mosphox/mashup',
+    url='https://github.com/mosphox/keyvomit',
     project_urls={
-        "Source": "https://github.com/mosphox/mashup",
-        "Tracker": "https://github.com/mosphox/mashup/issues"
+        "Source": "https://github.com/mosphox/keyvomit",
+        "Tracker": "https://github.com/mosphox/keyvomit/issues"
     },
     license='MIT',
     packages=find_packages(),
@@ -22,7 +22,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'mashup = mashup.cli:main',
+            'keyvomit = keyvomit.cli:main',
         ],
     },
     classifiers=[

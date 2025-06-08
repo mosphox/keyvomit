@@ -1,5 +1,5 @@
-from mashup.core import CHARSETS, copy, generate
-from mashup.parser import parse
+from keyvomit.core import CHARSETS, copy, generate
+from keyvomit.parser import parse
 
 
 def main():

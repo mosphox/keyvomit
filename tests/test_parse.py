@@ -1,8 +1,8 @@
 import sys
 import pytest
 
-from mashup.core import CHARSETS, DEFAULT_LENGTH
-from mashup.parser import parse
+from keyvomit.core import CHARSETS, DEFAULT_LENGTH
+from keyvomit.parser import parse
 
 
 @pytest.mark.parametrize("arglist,expected", [

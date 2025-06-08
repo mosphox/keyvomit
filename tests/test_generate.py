@@ -3,8 +3,8 @@ import itertools
 
 import pytest
 
-from mashup.core import CHARSETS, DEFAULT_LENGTH, DEFAULT_CHARSETS, generate
-from mashup.parser import parse
+from keyvomit.core import CHARSETS, DEFAULT_LENGTH, DEFAULT_CHARSETS, generate
+from keyvomit.parser import parse
 
 
 names = [cs['longname'] for cs in CHARSETS]

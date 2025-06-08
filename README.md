@@ -1,8 +1,8 @@
-# mashup
+# keyvomit
 
 > generate a chaotic character sequence so cursed even regex will flinch.
 
-**mashup** is a terminal-friendly, argument-powered, clipboard-integrated nonsense generator for passwords, tokens, and bad decisions.
+**keyvomit** is a terminal-friendly, argument-powered, clipboard-integrated nonsense generator for passwords, tokens, and bad decisions.
 
 ---
 ## Features
@@ -15,11 +15,11 @@
 
 ## Installation
 ```
-pip install mashup
+pip install keyvomit
 ```
 ---
 ## Usage
-`mashup [flags] [length]`
+`keyvomit [flags] [length]`
 
 ### Flags:
   `-l`  `--lower`        –  Use lowercase letters (a–z)

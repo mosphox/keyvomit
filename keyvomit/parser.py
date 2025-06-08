@@ -1,6 +1,6 @@
 import argparse
 
-from mashup.core import DEFAULT_LENGTH
+from keyvomit.core import DEFAULT_LENGTH
 
 
 def parse(charsets: list[dict[str, str, str, str]]) -> argparse.Namespace:
