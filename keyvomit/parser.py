@@ -5,7 +5,7 @@ from keyvomit.core import DEFAULT_LENGTH
 
 def parse(charsets: list[dict[str, str, str, str]]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        prog='mashup',
+        prog='keyvomit',
 
         description=(
             "mash together a sequence of characters so unhinged, even regex will flinch.\n"
@@ -15,14 +15,14 @@ def parse(charsets: list[dict[str, str, str, str]]) -> argparse.Namespace:
 
         epilog=(
             "examples:\n"
-            "   mashup --lower --upper\n"
+            "   keyvomit --lower --upper\n"
             "       → Generate a 16-character sequence using just lowercase and uppercase letters.\n\n"
-            "   mashup -luds\n"
+            "   keyvomit -luds\n"
             "       → Combined shorthand: lowercase, uppercase, digits, safe symbols.\n\n"
-            "   mashup --custom 'abc123!?🐍' 24\n"
+            "   keyvomit --custom 'abc123!?🐍' 24\n"
             "       → 24 characters from your personal font of bad decisions.\n\n"
             "defaults:\n"
-            "   if you pass no flags or charsets, mashup defaults to: \n"
+            "   if you pass no flags or charsets, keyvomit defaults to: \n"
             "   lowercase, uppercase, digits, and safe symbols.\n"
             "   length defaults to 16 characters.\n\n"
             "may your sequences be strong and your intent unclear.\n"
