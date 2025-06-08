@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='mashup',
+    name='keyvomit',
     version='0.2.0',
     description='Unhinged character sequence generator for passwords, tokens, and general chaos.',
     long_description=open('README.md', encoding='utf-8').read(),
